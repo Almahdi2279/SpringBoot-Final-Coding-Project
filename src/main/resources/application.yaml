@@ -1,0 +1,10 @@
+spring:
+  datasource:
+      username: safari_carrier
+      password: safari_carrier
+      url: jdbc:mysql://localhost:3306/safari_carrier
+      
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
